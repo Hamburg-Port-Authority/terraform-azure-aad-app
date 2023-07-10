@@ -15,7 +15,7 @@ variable "redirect_uris" {
 variable "logout_url" {
 
   type        = string
-  default     = "https://github.com/la-cc"
+  default     = "https://github.com/Hamburg-Port-Authority"
   description = "The URL that will be used by Microsoft's authorization service to sign out a user using front-channel, back-channel or SAML logout protocols."
 
 }
